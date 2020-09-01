@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Austin's Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="./style/index.css" />
+    <script src="./js/index.js"></script>
+    <script src="./js/RestaurantArrays.js"></script>
+  </head>
+  <body id="main">
+    <h1 id="heading1">Austin's Restaurant</h1>
+    <div id="media">
+      <h3>Dinner Music</h3>
+      <audio controls loop id="music">
+	<source src="GoodOlPlanB.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div id="menu">
+      <h2 id="heading2">Menu</h2>
+    </div>
+    <div id="dinnerTable">
+      <table id="placement">
+	  <tr id="drinkPlacement">
+	  </tr>
+	  <tr>
+	    <td><img src="./images/SaladFork.gif" alt="Salad Fork"></td>
+	    <td><img src="./images/Fork.gif" alt="Entree Fork"></td>
+	    <td><table id="plate" style="background-image: url('./images/Plate_clip_art.png'); height: 560px; width: 652px;">
+		<tr id="row1">
+		</tr>
+		<tr id="row2">
+		</tr>
+		<tr id="row3">
+	    </table></td>
+	    <td><img src="./images/Knife.gif" alt="Knife" style="margin-left: 50px;"></td>
+	    <td><img src="./images/Spoon.gif" alt="Spoon"></td>
+	    <td><img src="./images/SoupSpoon.gif" alt="SoupSpoon"></td>
+	  </tr>
+      </table>
+      <div id="bill">
+	<h3>Bill</h3>
+	<table id="billTable">
+	</table>
+	<button onclick="nextC()" id="next">Next Customer!</button>
+      </div>
+    </div>
+    
+    <script>makeMenu();</script>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+body {
+    background-color: AntiqueWhite;
+}
+
+#heading1 {
+    text-align: center;
+}
+
+#placement
+
+#plate, #plateP {
+    background-image: url("./images/Platter.jpg")
+}
+
+#plateP {
+    width: 500px;
+    height: 300px;
+    display: flex;
+}
+
+.foodImg {
+    display: inline-block;
+}
+
+#dinnerTable {
+    margin-left: 25%;
+    float: left;
+    display: none;
+}
+
+#menuTable {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#drinkMenu {
+    display: flex;
+}
+
+.drinkRow > * {
+    display: inline;
+}
+
+#media {
+    float: right;
+    position: sticky;
+    top: 0;
+}
+
+.menuRow {
+    border-style: inset;
+    border-width: medium;
+}
+
+.drinkRow {
+    border-style: inset;
+    border-width: medium;
+}
+.itemName, .drinkName {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#orderbutton {
+    display: flex;
+    paddding-top: 10px;
+    margin: auto;
+    width: 5%;
+}
+
+.drinkImg {
+    width: 100px;
+    height: 100px;
+}
